@@ -6,3 +6,6 @@ vim.keymap.set("n", "<leader>l", vim.cmd.Lazy, {desc = "Open lazy plugin manager
 vim.keymap.set("n", "<leader>g", function()
   vim.cmd("FloatermNew lazygit")
 end, { desc = "Launch lazygit using Floaterm" })
+vim.keymap.set("n", "<leader>t", function()
+  vim.cmd("FloatermNew")
+end, { desc = "Open terminal current window" })
